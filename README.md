@@ -53,7 +53,7 @@ Just like for the scatter plot example, we will have to try a few different valu
 
 ![alt tag](https://raw.githubusercontent.com/aruth2/GraphEx/master/ColorMap4.png)
 
-The data was selected using the select color bar option. This will select every cluster for which a data value exists from the color bar. The original graph was minimized to illustrate the data which has been extracted by the program. There are a few gaps, but almost the entire graph has been accounted for. Some of the data is unreachable and exists as many different clusters each with a few pixels. The value of the clustering parameter should be chosen to strike a balance between extracting all data versus resolving differences between colors. Don't forget disable the white cluster, as it does not actually contain any useful information.
+The data was selected using the select color bar option. This will select every cluster for which a data value exists from the color bar. The original graph was minimized to illustrate the data which has been extracted by the program. There are a few gaps, but almost the entire graph has been accounted for. Some of the data is unreachable and exists as many different clusters each with a few pixels. The value of the clustering parameter should be chosen to strike a balance between extracting all data versus resolving differences between colors. Don't forget to disable the white cluster, as it does not actually contain any useful information.
 
 
 ![alt tag](https://raw.githubusercontent.com/aruth2/GraphEx/master/ColorMap5.png)
